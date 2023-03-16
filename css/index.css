@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Mulish:wght@300&display=swap');
+
+
+body {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #BD91D1;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.title {
+    margin: 10px;
+    color: #372C3C;
+}
+
+.container {
+    font-family: 'Abril Fatface', cursive;
+    background-color: #372C3C;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn {
+    background-color: #BD91D1;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.search {
+    height: 50px;
+}
+
+.loading {
+    height: 50px;
+}
+
+.expanding {
+    height: 50px;
+}
+
+.progress {
+    height: 50px;
+}
+
+.navigation1 {
+    height: 50px;
+}
