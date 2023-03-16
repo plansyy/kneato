@@ -51,3 +51,18 @@ body {
 .input:focus {
     outline: none;
 }
+
+
+.home-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.home #home-btn {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}

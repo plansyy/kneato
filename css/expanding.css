@@ -4,8 +4,8 @@ body {
     font-family: 'Mulish', sans-serif;
     display: flex;
     height: 100vh;
-    align-items: center
-    justify-content: center
+    align-items: center;
+    justify-content: center;
     margin: 0;
     overflow: hidden;
 }
@@ -56,4 +56,18 @@ body {
     .panel:nth-of-type(5) {
         display: none;
     }
+}
+
+.home-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.home #home-btn {
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: black;
 }
