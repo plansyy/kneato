@@ -6,6 +6,6 @@ sounds.forEach(sound => {
     bn.innerText = sounds
 
     btn.addEventListener('click', () => {
-        
+        document.getElementById(sound).play()
     })
 })
