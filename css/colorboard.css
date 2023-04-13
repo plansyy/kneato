@@ -1,3 +1,30 @@
 body {
-    background-color: 
+    background-color: #212121;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1288px;
+}
+
+.square {
+    height: 17px;
+    width: 17px;
+    margin: 2px;
+    background-color: #2d2d2d;
+    transition: 2s ease;
+}
+
+.square:hover {
+    height: 21px;
+    width: 21px;
+    margin: 0px;
+    transition-duration: 0s;
 }
